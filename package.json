@@ -1,0 +1,24 @@
+{
+  "name": "iaas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/II42X-Applications/IaaS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/II42X-Applications/IaaS/issues"
+  },
+  "homepage": "https://github.com/II42X-Applications/IaaS#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
