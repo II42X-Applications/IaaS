@@ -295,7 +295,7 @@ const addUser = (req, res) => {
     res.status(400).send('Badly formatted user in request.');
   }
   data.push(user);
-  res.send(user);
+  res.status(201).send(user);
 };
 
 module.exports = { getUsers, addUser };
